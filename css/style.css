@@ -1,0 +1,151 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+/*******sec 1*******/
+#Qest1 .title h2 {
+    font-size: 2.5rem;
+}
+
+.container h2{
+    font-size: 3.5rem;
+    color: #28a745;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.container h5{
+    font-size: 14px;
+}
+#itemsUl{
+    width: 80%;
+}
+li .delete {
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: 1.5;
+}
+/**************end of sec 1*********************/
+/******sec 2*************/
+#Qest2 .title h2 {
+    font-size: 2.5rem;
+}
+
+ .music  {
+    color: #000;
+    font-size: 7rem;
+    line-height: 500px;
+    font-weight: 700;
+}
+/*******secn 3*********/
+#Qest3{
+    background-color: #060a1f;
+}
+.counter h2{
+
+    font-size: 50px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.counted{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;  
+}
+#clock div{
+    position: relative;
+    margin: 0 5px;
+    -webkit-box-reflect: below 4px linear-gradient(transparent,#0004);
+
+}
+#clock div span{
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 80px;
+    background-color: #09c;
+    font-weight: 400;
+    text-align: center;
+    font-size:3rem;
+
+    
+}
+#clock div span:nth-child(2){
+    height: 30px;
+    background-color: #127fd6;
+    font-weight: 600;
+    text-align: center;
+    font-size:.9rem;
+    box-shadow: none;
+    letter-spacing: .3rem;
+    text-transform: capitalize;
+
+}
+#clock div:last-child span{
+    background-color: #ff006a;
+}
+#clock div:last-child span:nth-child(2){
+    background-color: #b1084e;
+}                                                                                                             
+/**************end of sec 3*********************/
+/**************start of sec 4*******************/
+
+
+
+/**************end of sec 4*******************/
+#Qest4 .title h2 {
+    font-size: 2.5rem;
+}
+#Qest4 .container h2{
+    color: #000;
+    font-size: 25rem;
+    text-shadow: -20px -20px white;
+    font-family: 'Cairo', sans-serif;
+}                                    
+
+
+/*****************************/
+#Qest5 .title h2 {
+    font-size: 2.5rem;
+}
+
+#Qest5 .container h2{
+   
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgba(204, 126, 139, 0.589);
+    
+}
+
+#nameError{
+    display: none;
+}
+#mailError{
+    display: none;
+}
+#phoneError{
+    display: none;
+}
+#messageError{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
